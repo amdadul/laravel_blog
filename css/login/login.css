@@ -1,0 +1,93 @@
+*{margin: 0;padding: 0;}
+body{
+	background-image: url("../../images/login/ecomm.png");
+	background-color: #cccccc;
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 100%;
+}
+
+.board{
+	background-color: rgba(13, 105, 253, 0.9);
+	border-radius: 10px;
+	-webkit-box-shadow: 0px 0px 50px 20px rgba(0,0,0,0.4);
+	-moz-box-shadow: 0px 0px 50px 20px rgba(0,0,0,0.4);
+	box-shadow: 0px 0px 50px 20px rgba(0,0,0,0.4);
+}
+
+.btnLogin{
+	width: 30% !important;
+	background: linear-gradient(0deg, rgba(102, 31, 10,1) 0%, rgba(87, 20, 0,1) 50%, rgba(245, 58, 2,1) 100%);;
+	color: #fff;
+	font-weight: bold;
+	height: 40px;
+	border-radius: 10px;
+	border: 1px solid #fff;
+}
+
+.btnLogin:hover{
+	width: 30% !important;
+	background: linear-gradient(0deg, rgba(3, 171, 20,1) 0%, rgba(4, 97, 13,1) 50%, rgba(31, 255, 54,1) 100%);;
+	color: #fff;
+	font-weight: bold;
+	height: 40px;
+	border-radius: 10px;
+	border: 1px solid #fff;
+}
+
+#basic-addon1
+{
+	background-color:#e33c09 ;
+	color: #fff;
+}
+
+.logimg
+{
+	width: 50%;
+
+	margin-top: -25%;
+	margin-bottom: 25px;
+	border-radius: 50%;
+	box-shadow: 0px -20px 50px 20px rgba(0,0,0,0.2);
+	border-top: 2px solid rgba(2, 48, 122, 0.6);
+}
+
+.logText
+{
+	margin-bottom: 25px;
+	color: #FFFFFF;
+	text-shadow: 0 -1px 4px #FFF, 0 1px 10px #ff0, 0 -5px 20px #ff8000, 0 -18px 40px #F00;
+}
+
+.icon a{
+	text-decoration: none;
+	font-size: 20px;
+	padding: 5px 20px 10px 5px;
+}
+
+.google
+{
+	color: #c92208;
+}
+
+.facebook
+{
+	color: #005082;
+}
+
+.twitter
+{
+	color: #00606b;
+}
+
+.link a{
+	cursor: pointer;
+	color: #fff;
+}
+.signup{
+	margin-left: 20px;
+	text-decoration: underline;
+	color: #b00284;
+}
