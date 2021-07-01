@@ -58,6 +58,18 @@
                     <li><a href="{{route('category.create')}}"><i class="fa fa-circle-o"></i> Create Category</a></li>
                 </ul>
             </li>
+            <li class="treeview">
+                <a href="#">
+                    <i class="fa fa-cog"></i> <span>Slider</span>
+                    <span class="pull-right-container">
+                      <i class="fa fa-angle-left pull-right"></i>
+                    </span>
+                </a>
+                <ul class="treeview-menu">
+                    <li><a href="{{route('slider.index')}}"><i class="fa fa-circle-o"></i> Manage Sliders</a></li>
+                    <li><a href="{{route('slider.create')}}"><i class="fa fa-circle-o"></i> Create Slider</a></li>
+                </ul>
+            </li>
             <li>
                 <a href="{{route('comments')}}">
                     <i class="fa fa-comments" ></i>
