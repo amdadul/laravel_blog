@@ -135,7 +135,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../laravel_erp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -191,6 +191,7 @@
       <workItem from="1609948862382" duration="2841000" />
       <workItem from="1610036665969" duration="89000" />
       <workItem from="1610299075902" duration="2803000" />
+      <workItem from="1625120214245" duration="5902000" />
     </task>
     <servers />
   </component>

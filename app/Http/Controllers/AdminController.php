@@ -12,10 +12,10 @@ class AdminController extends Controller
 
     function __construct()
     {
-        $this->middleware('permission:role.index|role.create|role.edit|role.delete', ['only' => ['index','show']]);
-        $this->middleware('permission:role.create', ['only' => ['create','store']]);
-        $this->middleware('permission:role.edit', ['only' => ['edit','update']]);
-        $this->middleware('permission:role.delete', ['only' => ['destroy']]);
+        $this->middleware('permission:admin.index|admin.create|admin.edit|admin.delete', ['only' => ['index','show']]);
+        $this->middleware('permission:admin.create', ['only' => ['create','store']]);
+        $this->middleware('permission:admin.edit', ['only' => ['edit','update']]);
+        $this->middleware('permission:admin.delete', ['only' => ['destroy']]);
     }
 
     /**

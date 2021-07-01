@@ -19,5 +19,6 @@ class UserSeeder extends Seeder
         $user->status = "active";
         $user->role = "Admin";
         $user->save();
+        $user->assignRole('SuperAdmin');
     }
 }

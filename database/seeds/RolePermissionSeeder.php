@@ -39,7 +39,11 @@ class RolePermissionSeeder extends Seeder
             'role.index',
             'role.create',
             'role.edit',
-            'role.delete'
+            'role.delete',
+            'admin.index',
+            'admin.create',
+            'admin.edit',
+            'admin.delete'
         ];
         for($i=0;$i< count($permissions);$i++)
         {
